@@ -3,7 +3,6 @@ import { jsx } from 'theme-ui';
 import { Container, Flex, Box, Heading, Text, Image, Button } from 'theme-ui';
 import React, { useState } from 'react';
 import ModalVideo from 'react-modal-video';
-import { Link } from 'components/link';
 import { FaPlayCircle } from 'react-icons/fa';
 import BannerBG from 'assets/bannerBg.png';
 import BannerThumb from 'assets/banner-thumb.png';
@@ -44,22 +43,21 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-            Experience your ultimate mobile application
+          Découvrez les fondamentaux de l'expérience de vos utilisateurs
           </Heading>
           <Text as="p" variant="heroSecondary">
-            Get your blood tests delivered at let home collect sample from the
-            victory of the managements that supplies best design system
-            guidelines ever.
+          89% des utilisateurs arrêtent tout rapport avec une entreprise suite à une mauvaise expérience utilisateur.
+          L’expérience utilisateur n’a jamais été aussi vitale.
           </Text>
           <Flex>
-            <Button variant="whiteButton" aria-label="Get Started">
-              Get Started
+            <Button variant="whiteButton" aria-label="S'initier à l'UX">
+            S'initier à l'UX
             </Button>
             <>
               <ModalVideo
                 channel="youtube"
                 isOpen={videoOpen}
-                videoId="ZNA9rmDsYVE"
+                videoId="siFjOoRv4eo"
                 onClose={() => setVideoOpen(false)}
               />
               <Button
@@ -67,19 +65,9 @@ export default function Banner() {
                 aria-label="Watch Video"
                 onClick={handleClick}
               >
-                <FaPlayCircle /> Watch Video
+                <FaPlayCircle /> Regarder une introduction
               </Button>
             </>
-          </Flex>
-          <Flex sx={styles.sponsorBox}>
-            <Text sx={styles.sponsorTitle}>Sponsored by:</Text>
-            <Box sx={styles.sponsorBox.sponsor}>
-              {data.map((item, index) => (
-                <Link path={item.path} key={`client-key${index}`}>
-                  <Image src={item.image} alt={item.title} />
-                </Link>
-              ))}
-            </Box>
           </Flex>
         </Box>
 
