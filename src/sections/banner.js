@@ -43,7 +43,7 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-          Découvrez les fondamentaux de l'expérience de vos utilisateurs
+          Découvrez les fondamentaux de l'expériences utilisateurs
           </Heading>
           <Text as="p" variant="heroSecondary">
           89% des utilisateurs arrêtent tout rapport avec une entreprise suite à une mauvaise expérience utilisateur.

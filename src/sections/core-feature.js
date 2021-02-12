@@ -8,24 +8,24 @@ import Briefcase from 'assets/core-feature/briefcase.svg';
 import Secure from 'assets/core-feature/secure.svg';
 
 const data = {
-  subTitle: 'Mobilité',
-  title: 'Smart Jackpots that you may love this anytime & anywhere',
+  subTitle: '',
+  title: 'Réaliser ces experiences en interfaces claire et facile à intéreagire',
   features: [
     {
       id: 1,
       imgSrc: Briefcase,
       altText: 'Smart Features',
-      title: 'Smart Features',
+      title: 'Comprendre la différence entre l’UX et l’UI design',
       text:
-        'Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.',
+        'Integrer des interfaces utilisateurs aux expériences ',
     },
     {
       id: 2,
       imgSrc: Secure,
       altText: 'Secure Contents',
-      title: 'Secure Contents',
+      title: 'Les methodes clés',
       text:
-        'Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.',
+        "Prise en main du méthode de design atomique: Atomic Design & Design Thinking",
     },
   ],
 };
