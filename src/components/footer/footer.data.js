@@ -1,14 +1,18 @@
 export default [
   {
-    header: 'Nouc Contacter',
+    header: 'Nos Articles',
     items: [
       {
-        path: 'mailto:contact@apollonlab.com',
-        label: 'Par E-mail',
+        path: '/',
+        label: "S'initier à l'UX et le Design Thinking",
       },
       {
-        path: 'Tel:+261342047213',
-        label: 'Par téléphone',
+        path: '/',
+        label: 'Atomic Design',
+      },
+      {
+        path: '/',
+        label: 'Empathiser avec les biais cognitifs',
       },
     ],
   },
@@ -42,20 +46,17 @@ export default [
       },
     ],
   },
+
   {
-    header: 'Nos Articles',
+    header: 'Nouc Contacter',
     items: [
       {
-        path: '/',
-        label: 'Responsible supply chain',
+        path: 'mailto:contact@apollonlab.com',
+        label: 'Par E-mail',
       },
       {
-        path: '/',
-        label: 'Responsible supply chain',
-      },
-      {
-        path: '/',
-        label: 'Responsible supply chain',
+        path: 'Tel:+261342047213',
+        label: 'Par téléphone',
       },
     ],
   },
