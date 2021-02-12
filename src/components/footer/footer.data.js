@@ -48,7 +48,7 @@ export default [
   },
 
   {
-    header: 'Nouc Contacter',
+    header: 'Nous Contacter',
     items: [
       {
         path: 'mailto:contact@apollonlab.com',
