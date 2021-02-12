@@ -8,11 +8,11 @@ import PaymentThumb from 'assets/paymentThumb.png';
 import PaymentPattern from 'assets/payment-pattern.png';
 
 const data = {
-  subTitle: 'PAYMENT SECURITY',
-  title: 'Secure Payment Transaction System with #1 Ranking',
+  subTitle: '',
+  title: "Mobilisation des concepts clés de l'UX design",
   description:
-    'Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever. Get your tests delivered at let home collect sample.',
-  btnName: 'Learn More',
+    'Comprendre les utilisateurs et leurs expériences en profondeur pour proposer des solitions fluides et accessibles. ',
+  btnName: 'Les Principes UX',
   btnURL: '#',
 };
 

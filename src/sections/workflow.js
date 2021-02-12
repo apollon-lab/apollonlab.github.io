@@ -10,27 +10,27 @@ import ArrowEven from 'assets/arrowEven.png';
 const data = [
   {
     id: 1,
-    title: 'Set disbursement Instructions',
+    title: "Introduction à l'UX Design",
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      "reconnaitre et définir l'UX",
   },
   {
     id: 2,
-    title: 'Assembly retrieves funds from your account',
+    title: "Concentration sur l'utilisateur",
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Conception des produits simple et mobile suivant les profils des utilisateurs',
   },
   {
     id: 3,
-    title: 'Assembly initiates disbursement',
+    title: "Evangelisation du design centré Utilisateurs ",
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      " Incarnez l'éthique de l'UX designer, dépasser et briser la mentalité en silos des entreprises contemporaines.",
   },
   {
     id: 4,
-    title: 'Customer receives funds payment',
+    title: "Pratique de l’UX design",
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      "Don't learn UX, Do UX. -Intégrez l'approche Design Thinking ",
   },
 ];
 
@@ -39,8 +39,8 @@ export default function WorkFlow() {
     <section sx={styles.workflow}>
       <Container>
         <SectionHeader
-          slogan="Whats the function"
-          title="Let’s see how it works"
+          slogan=""
+          title="Comment ça marche"
           isWhite={true}
         />
 
