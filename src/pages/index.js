@@ -9,6 +9,7 @@ import KeyFeature from 'sections/key-feature';
 import SecurePayment from 'sections/secure-payment';
 import CoreFeature from 'sections/core-feature';
 import WorkFlow from 'sections/workflow';
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 
 export default function IndexPage() {
   return (
@@ -21,6 +22,7 @@ export default function IndexPage() {
           <SecurePayment />
           <CoreFeature />
           <WorkFlow />
+          <MessengerCustomerChat pageId="100838041817677" appId="252601093131267" />,
         </Layout>
       </StickyProvider>
     </ThemeProvider>
