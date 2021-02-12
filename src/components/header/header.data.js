@@ -7,8 +7,4 @@ export default [
     path: 'feature',
     label: 'Vision',
   },
-  {
-    path: 'testimonial',
-    label: 'A Propos',
-  },
 ];

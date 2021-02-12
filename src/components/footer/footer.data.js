@@ -1,93 +1,57 @@
 export default [
   {
-    header: 'About Us',
+    header: 'Nouc Contacter',
     items: [
       {
-        path: '/',
-        label: 'Support Center',
+        path: 'mailto:contact@apollonlab.com',
+        label: 'Par E-mail',
       },
       {
-        path: '/',
-        label: 'Customer Support',
-      },
-      {
-        path: '/',
-        label: 'About Us',
-      },
-      {
-        path: '/',
-        label: 'Copyright',
-      },
-      {
-        path: '/',
-        label: 'Popular Campaign',
+        path: 'Tel:+261342047213',
+        label: 'Par téléphone',
       },
     ],
   },
   {
-    header: 'Our Information',
+    header: 'Notre Adresse',
     items: [
       {
         path: '/',
-        label: 'Return Policy ',
+        label: '11 Avenue Léon Blum, 91100 Corbeil-Essonnes, France',
       },
       {
         path: '/',
-        label: 'Privacy Policy',
-      },
-      {
-        path: '/',
-        label: 'Terms & Conditions',
-      },
-      {
-        path: '/',
-        label: 'Site Map',
-      },
-      {
-        path: '/',
-        label: 'Store Hours',
+        label: 'II H 35 GTER, Antananarivo',
       },
     ],
   },
   {
-    header: 'My Account',
+    header: 'Nos Réseaux sociaux',
     items: [
       {
-        path: '/',
-        label: 'Press inquiries',
+        path: 'https://web.facebook.com/apollonlab.studios',
+        label: 'Facebook',
       },
       {
-        path: '/',
-        label: 'Social media ',
+        path: 'https://www.instagram.com/apollon.lab',
+        label: 'Instagram',
       },
       {
-        path: '/',
-        label: 'directories',
-      },
-      {
-        path: '/',
-        label: 'Images & B-roll',
-      },
-      {
-        path: '/',
-        label: 'Permissions',
+        path: 'https://www.linkedin.com/company/apollon-lab-studios/',
+        label: 'Linkedin',
       },
     ],
   },
   {
-    header: 'Policy',
+    header: 'Nos Articles',
     items: [
       {
         path: '/',
-        label: 'Application security',
+        label: 'Responsible supply chain',
       },
       {
         path: '/',
-        label: 'Software principles',
-      },
-      {
-        path: '/',
-        label: 'Unwanted software policy',
+        label: 'Responsible supply chain',
       },
       {
         path: '/',

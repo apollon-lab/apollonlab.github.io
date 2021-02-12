@@ -25,9 +25,9 @@ export default function Footer() {
         </Box>
       </Container>
       <Text sx={styles.footer.copyright}>
-        All right reserved - Design & Developed by
-        <Link path="https://redq.io/" target="_blank">
-          RedQ, Inc
+      Tous droits réservés -
+        <Link path="https://apollonlab.com/" target="_blank">
+          Apollon Lab Studios, Inc
         </Link>
       </Text>
     </footer>

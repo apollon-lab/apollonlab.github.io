@@ -8,7 +8,7 @@ import Briefcase from 'assets/core-feature/briefcase.svg';
 import Secure from 'assets/core-feature/secure.svg';
 
 const data = {
-  subTitle: 'Core features',
+  subTitle: 'Mobilité',
   title: 'Smart Jackpots that you may love this anytime & anywhere',
   features: [
     {

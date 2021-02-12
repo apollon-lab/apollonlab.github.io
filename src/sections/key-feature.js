@@ -11,26 +11,26 @@ const data = [
   {
     id: 1,
     imgSrc: Vector,
-    altText: 'Vector',
-    title: 'Vector Editing',
+    altText: 'Decouvert',
+    title: "Créons une vision commune",
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Ensemble, travaillons à établir une série de principes, un manifesto que vous utiliserez pour promouvoir l’expérience utilisateur au sein de votre entreprise.',
   },
   {
     id: 2,
     imgSrc: Editing,
     altText: 'Monitoring',
-    title: 'Customize & Monitoring',
+    title: "Explorons l'empathie",
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Explorer les synthèse visuelle des propos, pensées, actions et ressentis d’un utilisateur, ou segment d’utilisateurs d’un produit',
   },
   {
     id: 3,
     imgSrc: Speed,
     altText: 'Quality',
-    title: 'Quality & Short-period',
+    title: 'Idéation rapide',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      '5 minutes pour consolider un écran qui se nourrit des idées tirées du brainstorming ',
   },
 ];
 
@@ -39,8 +39,8 @@ export default function KeyFeature() {
     <section sx={{ variant: 'section.keyFeature' }} id="feature">
       <Container>
         <SectionHeader
-          slogan="Quality features"
-          title="Meet exciting feature of app"
+          slogan="Revolutionner l'expérience utilisateurs"
+          title="Pointer une rapidité de l'intérêt d'une démarche centrée utilisateur"
         />
 
         <Grid sx={styles.grid}>
