@@ -33,7 +33,7 @@ export default function Header({ className }) {
               </Link>
             ))}
           </Flex>
-          <Link href="https://apollon-lab.github.io/ux/" passHref>
+          <Link href="https://ux.apollonlab.com/" passHref>
           <Button 
             className="donate__btn"          
             variant="secondary"
