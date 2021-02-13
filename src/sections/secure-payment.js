@@ -13,7 +13,7 @@ const data = {
   description:
     'Comprendre les utilisateurs et leurs expériences en profondeur pour proposer des solitions fluides et accessibles. ',
   btnName: 'Les Principes UX',
-  btnURL: '#',
+  btnURL: 'https://google.com',
 };
 
 export default function SecurePayment() {

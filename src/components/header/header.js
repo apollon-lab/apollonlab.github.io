@@ -9,6 +9,8 @@ import { DrawerProvider } from '../../contexts/drawer/drawer.provider';
 import MobileDrawer from './mobile-drawer';
 import menuItems from './header.data';
 
+
+
 export default function Header({ className }) {
   return (
     <DrawerProvider>
@@ -31,14 +33,16 @@ export default function Header({ className }) {
               </Link>
             ))}
           </Flex>
-
-          <Button
-            className="donate__btn"
+          <Link href="https://google.com/" passHref>
+          <Button 
+            className="donate__btn"          
             variant="secondary"
-            aria-label=" S'initier à l'UX"
+            aria-label=" S'initier à l'UX" 
           >
             S'initier à l'UX
           </Button>
+          </Link>
+          
 
           <MobileDrawer />
         </Container>

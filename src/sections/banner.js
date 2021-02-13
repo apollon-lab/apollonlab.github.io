@@ -6,7 +6,7 @@ import ModalVideo from 'react-modal-video';
 import { FaPlayCircle } from 'react-icons/fa';
 import BannerBG from 'assets/bannerBg.png';
 import BannerThumb from 'assets/banner-thumb.png';
-
+import Link from 'next/link'
 import client1 from 'assets/sponsor/paypal.svg';
 import client2 from 'assets/sponsor/google.svg';
 import client3 from 'assets/sponsor/dropbox.svg';
@@ -50,9 +50,13 @@ export default function Banner() {
           L’expérience utilisateur n’a jamais été aussi vitale.
           </Text>
           <Flex>
-            <Button variant="whiteButton" aria-label="S'initier à l'UX">
+          <Link href="https://google.com" passHref>
+          <Button variant="whiteButton" aria-label="S'initier à l'UX" >
             S'initier à l'UX
             </Button>
+          </Link>
+            
+           
             <>
               <ModalVideo
                 channel="youtube"
