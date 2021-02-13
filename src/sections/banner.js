@@ -50,7 +50,7 @@ export default function Banner() {
           L’expérience utilisateur n’a jamais été aussi vitale.
           </Text>
           <Flex>
-          <Link href="https://apollon-lab.github.io/ux/" passHref>
+          <Link href="https://ux.apollonlab.com/" passHref>
           <Button variant="whiteButton" aria-label="S'initier à l'UX" >
             S'initier à l'UX
             </Button>
