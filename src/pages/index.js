@@ -10,7 +10,6 @@ import SecurePayment from 'sections/secure-payment';
 import CoreFeature from 'sections/core-feature';
 import WorkFlow from 'sections/workflow';
 import MessengerCustomerChat from 'react-messenger-customer-chat';
-import link from 'next/link'
 export default function IndexPage() {
   return (
     <ThemeProvider theme={theme}>
