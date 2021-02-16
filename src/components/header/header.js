@@ -1,7 +1,8 @@
 /** @jsx jsx */
 import { jsx, Container, Flex, Button } from 'theme-ui';
 import { keyframes } from '@emotion/core';
-import { Link } from 'react-scroll';
+import { Link as ReactLink} from 'react-scroll';
+import Link from 'next/link';
 import Logo from 'components/logo';
 import LogoDark from 'assets/logo-dark.svg';
 import LogoWhite from 'assets/logo.svg';
@@ -20,7 +21,7 @@ export default function Header({ className }) {
 
           <Flex as="nav" sx={styles.nav}>
             {menuItems.map(({ path, label }, i) => (
-              <Link
+              <ReactLink
                 activeClass="active"
                 to={path}
                 spy={true}
@@ -30,7 +31,7 @@ export default function Header({ className }) {
                 key={i}
               >
                 {label}
-              </Link>
+              </ReactLink>
             ))}
           </Flex>
           <Link href="https://ux.apollonlab.com/" passHref>
